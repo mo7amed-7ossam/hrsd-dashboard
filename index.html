@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRSD-Dashboard</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-info-container">
+            <button>
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="profile">
+                <img src="imgs/user.jpg" alt="profile">
+                <span>حسن الرائع</span>
+            </div>
+        </div>
+
+        <div class="nav-control-container">
+            <button class="profile-links">
+                <i class="fa-regular fa-user"></i> <span>حسن الرائع</span> <i class="fa-solid fa-chevron-down"
+                    style="margin-right: 20px;"></i>
+            </button>
+
+            <img class="logo"
+                src="https://upload.wikimedia.org/wikipedia/ar/thumb/8/80/Ministry_of_Human_Resources_and_Social_Development.svg/2560px-Ministry_of_Human_Resources_and_Social_Development.svg.png">
+        </div>
+    </nav>
+    <!-- main-tabs -->
+    <div class="main-tabs">
+        <div class="main-tab">
+            <div class="check-container">
+                <input type="radio" id="all" checked name="main-tab">
+                <div class="point">
+                    <div class="inner-point"></div>
+                </div>
+            </div>
+            <label for="all">عرض الكل</label>
+        </div>
+        <div class="main-tab">
+            <div class="check-container">
+                <input type="radio" id="choice-1" name="main-tab">
+                <div class="point">
+                    <div class="inner-point"></div>
+                </div>
+            </div>
+            <label for="choice-1">توزيع الأيتام</label>
+        </div>
+        <div class="main-tab">
+            <div class="check-container">
+                <input type="radio" id="choice-2" name="main-tab">
+                <div class="point">
+                    <div class="inner-point"></div>
+                </div>
+            </div>
+            <label for="choice-2">الأيتام المعاقين</label>
+        </div>
+    </div>
+    <!-- hero -->
+
+    <div class="hero">
+        <div class="aytaam">
+            <!-- <img src="imgs/aytaam.png" class="aytaam-bg"> -->
+            <img src="imgs/aytaam-moaaq.png" alt="" class="aytaam-moaaqeen-bg">
+            <div class="content-layer">
+                <div class="content-text">
+                    <div class="child">
+                        <h1>عدد الجمعيات</h1>
+                        <p>324798</p>
+                    </div>
+                </div>
+                <div class="pattern"></div>
+            </div>
+        </div>
+        <div class="aytaam-moaaqeen" style="display: none;">
+            <img src="imgs/aytaam-moaaq.png" alt="" class="aytaam-moaaqeen-bg">
+            <div class="content-layer">
+                <div class="content-text">
+                    <h1>عدد الموقّعين</h1>
+                    <p>324798</p>
+                </div>
+                <div class="pattern"></div>
+            </div>
+        </div>
+    </div>
+    <!-- tabs -->
+    <div class="tabs">
+        <button class="tab active">عرض الكل</button>
+        <button class="tab">التابة الأولى</button>
+        <button class="tab">التابة الثانية</button>
+        <button class="tab">التابة الثالثة</button>
+        <button class="tab">التابة الرابعة</button>
+        <button class="tab">التابة الخامسة</button>
+        <button class="tab">التابة السادسة</button>
+    </div>
+    <!-- break line -->
+
+    <div class="break-line"></div>
+    <!-- charts information -->
+    <div class="charts-information">
+        <div class="line line-1 vh"></div>
+        <div class="line line-2 vh"></div>
+        <div class="line line-3 vw"></div>
+        <!-- pie chart -->
+        <div class="chart-container">
+            <p class="chart-title">عنوان التابة</p>
+            <div class="pie-chart"></div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="legend-color s1"></span>Series 1</div>
+                <div class="legend-item"><span class="legend-color s2"></span>Series 2</div>
+                <div class="legend-item"><span class="legend-color s3"></span>Series 3</div>
+                <div class="legend-item"><span class="legend-color s4"></span>Series 4</div>
+                <div class="legend-item"><span class="legend-color s5"></span>Series 5</div>
+                <div class="legend-item"><span class="legend-color s6"></span>Series 6</div>
+            </div>
+        </div>
+        <!-- pie chart -->
+        <div class="chart-container">
+            <p class="chart-title">عنوان التابة</p>
+            <div class="pie-chart"></div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="legend-color s1"></span>Series 1</div>
+                <div class="legend-item"><span class="legend-color s2"></span>Series 2</div>
+                <div class="legend-item"><span class="legend-color s3"></span>Series 3</div>
+                <div class="legend-item"><span class="legend-color s4"></span>Series 4</div>
+                <div class="legend-item"><span class="legend-color s5"></span>Series 5</div>
+                <div class="legend-item"><span class="legend-color s6"></span>Series 6</div>
+            </div>
+        </div>
+        <!-- pie chart -->
+        <div class="chart-container">
+            <p class="chart-title">عنوان التابة</p>
+            <div class="pie-chart"></div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="legend-color s1"></span>Series 1</div>
+                <div class="legend-item"><span class="legend-color s2"></span>Series 2</div>
+                <div class="legend-item"><span class="legend-color s3"></span>Series 3</div>
+                <div class="legend-item"><span class="legend-color s4"></span>Series 4</div>
+                <div class="legend-item"><span class="legend-color s5"></span>Series 5</div>
+                <div class="legend-item"><span class="legend-color s6"></span>Series 6</div>
+            </div>
+        </div>
+        <!-- pie chart -->
+        <div class="chart-container">
+            <p class="chart-title">عنوان التابة</p>
+            <div class="pie-chart"></div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="legend-color s1"></span>Series 1</div>
+                <div class="legend-item"><span class="legend-color s2"></span>Series 2</div>
+                <div class="legend-item"><span class="legend-color s3"></span>Series 3</div>
+                <div class="legend-item"><span class="legend-color s4"></span>Series 4</div>
+                <div class="legend-item"><span class="legend-color s5"></span>Series 5</div>
+                <div class="legend-item"><span class="legend-color s6"></span>Series 6</div>
+            </div>
+        </div>
+        <!-- pie chart -->
+        <div class="chart-container">
+            <p class="chart-title">عنوان التابة</p>
+            <div class="pie-chart"></div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="legend-color s1"></span>Series 1</div>
+                <div class="legend-item"><span class="legend-color s2"></span>Series 2</div>
+                <div class="legend-item"><span class="legend-color s3"></span>Series 3</div>
+                <div class="legend-item"><span class="legend-color s4"></span>Series 4</div>
+                <div class="legend-item"><span class="legend-color s5"></span>Series 5</div>
+                <div class="legend-item"><span class="legend-color s6"></span>Series 6</div>
+            </div>
+        </div>
+        <!-- pie chart -->
+        <div class="chart-container">
+            <p class="chart-title">عنوان التابة</p>
+            <div class="pie-chart"></div>
+
+            <div class="legend">
+                <div class="legend-item"><span class="legend-color s1"></span>Series 1</div>
+                <div class="legend-item"><span class="legend-color s2"></span>Series 2</div>
+                <div class="legend-item"><span class="legend-color s3"></span>Series 3</div>
+                <div class="legend-item"><span class="legend-color s4"></span>Series 4</div>
+                <div class="legend-item"><span class="legend-color s5"></span>Series 5</div>
+                <div class="legend-item"><span class="legend-color s6"></span>Series 6</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
